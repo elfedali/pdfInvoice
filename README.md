@@ -15,3 +15,6 @@ run `php index.php` to generate pdf invoice
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<!-- link to my portfolio elfedali.github.io -->
+## Author
+[elfedali](elfedali.github.io)
