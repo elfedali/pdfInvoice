@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .fw-normal {
+            font-weight: 400;
+        }
+
+        .fw-bold {
+            font-weight: 700;
+        }
+
+        .sep {
+            height: 16px;
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+        }
+
+        .text-md {
+            font-size: 1.125rem;
+        }
+
+        .text-lg {
+            font-size: 1.5rem;
+        }
+
+        .text-xl {
+            font-size: 2rem;
+        }
+
+        .text-2xl {
+            font-size: 2.5rem;
+        }
+
+        .img-logo {
+            width: 100px;
+            height: auto;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+
+
+        }
+
+        .table td {
+            border: 1px solid #ddd;
+            padding: 5px;
+
+
+        }
+
+        .table th {
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color: #f2f2f2;
+        }
+
+        .bg-gray-100 {
+            background-color: #f2f2f2;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img class="img-logo" src="https://weboven.ma/images/favicon.png" alt=""> -->
+    <h1 class="text-2xl">Invoice</h1>
+    <p>weboven.ma</p>
+    <p>
+        <a href="mailto:contact@weboven.ma">contact@weboven.ma</a>
+    </p>
+    <div class="sep"></div>
+
+    <table class="w-100">
+        <tr>
+            <td>
+                <h3>Bill to:</h3>
+                <p>John Doe</p>
+                <p>0699008877</p>
+                <p>
+                    <a href="mailto:jonedoe@email.com">jonedoe@email.com</a>
+                </p>
+            </td>
+
+            <td>
+                <div class="float-right">
+                    <h3>Invoice #12345</h3>
+                    <p>Invoice Date: 01/01/2021</p>
+                    <p>Due Date: 01/01/2021</p>
+                </div>
+            </td>
+
+        </tr>
+
+    </table>
+    <div class="sep"></div>
+    <!-- table  of bill -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <!-- <th>Quantity</th> -->
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web design</td>
+                <td>1</td>
+                <!-- <td>1000 DH</td> -->
+                <td>1000 DH</td>
+            </tr>
+            <tr>
+                <td>Web development</td>
+                <td>1</td>
+                <!-- <td>1000 DH</td> -->
+                <td>1000 DH</td>
+            </tr>
+            <tr>
+                <td>Web hosting</td>
+                <td>1</td>
+                <!-- <td>1000 DH</td> -->
+                <td>1000 DH</td>
+            </tr>
+            <tr>
+                <td>Web maintenance</td>
+                <td>1</td>
+                <!-- <td>1000 DH</td> -->
+                <td>1000 DH</td>
+            </tr>
+            <!-- total td -->
+            <tr>
+                <td colspan="2" class="text-right">Subtotal</td>
+                <td><span>4000 DH</span></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right">Tax</td>
+                <td><span>400 DH</span></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right">Total</td>
+                <td class="bg-gray-100"><strong>4400 DH</strong></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="sep"></div>
+
+
+</body>
+
+</html>

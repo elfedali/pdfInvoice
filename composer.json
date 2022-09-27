@@ -1,0 +1,21 @@
+{
+  "name": "elfedali/pdf-invoice",
+  "description": "invoice pdf",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdessamad EL FEDALI",
+      "email": "a.elfedali@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "dompdf/dompdf": "dev-master"
+  }
+}
